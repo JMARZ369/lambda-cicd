@@ -1,11 +1,11 @@
 name: Deploy AWS Lambda # Name of our workflow
 
 on:
-    push:
-        branches:
-            - main
-        paths:
-            - 'lambda/**'
+  push:
+    branches:
+      - main
+    paths:
+      - 'lambda/**'
 
 jobs:
     deploy-lambda:
